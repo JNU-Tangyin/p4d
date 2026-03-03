@@ -1,0 +1,12 @@
+Model,R²,RMSE,MAE,Training Time
+Lasso Regression,0.998,31.81,22.55,0.007s
+Ridge Regression,0.992,58.35,37.91,0.008s
+Random Forest,0.980,94.66,54.63,0.630s
+Elastic Net,0.972,111.49,87.71,0.006s
+Decision Tree,0.962,129.36,83.04,0.013s
+Neural Network,0.939,164.00,107.15,2.994s
+Gradient Boosting,0.891,219.36,92.53,0.441s
+KNN,0.790,304.00,167.41,0.007s
+Symbolic Regression,0.784,295.86,203.89,0.000s
+SVR,-0.075,687.47,426.78,0.012s
+Linear Regression,-0.626,845.70,283.02,0.026s

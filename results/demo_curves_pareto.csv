@@ -1,0 +1,2 @@
+complexity,length,reward,rmse,r2,expression,expression_prefix
+4,4,0.5712300194726452,0.2781686381149976,0.4365872149187471,(X24/tan(X23)),[div X24 tan X23]
