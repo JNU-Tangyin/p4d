@@ -1,0 +1,18 @@
+{
+    "best_expression": "X4**2/Abs((X1 + X20)**2)",
+    "sympy_expression": "(X4/Abs(X1 + X20))**2",
+    "uncalibrated_test_metrics": {
+        "R-squared": 0.6200295157864426,
+        "RMSE": 392.43194821783317,
+        "MAE": 334.8352692333985
+    },
+    "calibrated_test_metrics": {
+        "R-squared": 0.7790268554373077,
+        "RMSE": 299.26723648355596,
+        "MAE": 173.03107737955727
+    },
+    "calibration_model": {
+        "coef": 0.5897322297096252,
+        "intercept": 301.9884948730469
+    }
+}

@@ -1,0 +1,5 @@
+﻿node,label,role,chinese_name,data_column_index,description
+X0,Property Management Fee,input_variable,去化期间物业管理费（万元）,21.0,
+X2,Interest Expense,input_variable,去化期间利息支出或沉没（万元）,23.0,
+X4,Commercial Rent,input_variable,当期商铺对外每月租金（万元）,24.0,
+Score,Decision Score,center,,,Investability metric from formula: X4² × cos²(X0) / X2²

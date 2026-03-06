@@ -1,0 +1,6 @@
+﻿source,target,edge_type,relation,rho,abs_rho
+X4,Score,contribution,"positive, squared",,
+X0,Score,contribution,nonlinear gating: cos²,,
+X2,Score,contribution,"penalty, squared denominator",,
+X4,X2,coupling,ratio/trade-off,0.3702191953609903,0.3702191953609903
+X0,X4,coupling,modulation,0.49186313099659207,0.49186313099659207

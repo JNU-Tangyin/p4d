@@ -1,0 +1,345 @@
+{
+    "experiment_info": {
+        "dataset_name": "investment_decision",
+        "target_column": "预期利润额（万元）",
+        "test_size": 0.2,
+        "random_state": 0,
+        "epochs": 15,
+        "timestamp": "2025-10-21 17:29:11"
+    },
+    "model_ranking": [
+        {
+            "model": "Random Forest",
+            "r2": 0.82713010152233,
+            "rmse": 264.69705765331685,
+            "mae": 115.42282767105341,
+            "training_time": 1.472724437713623
+        },
+        {
+            "model": "Symbolic Regression (PhySO)",
+            "r2": 0.7840321658817067,
+            "rmse": 295.85843914640503,
+            "mae": 203.88817091145836,
+            "training_time": 2203.3554244041443
+        },
+        {
+            "model": "Linear Regression",
+            "r2": 0.7105589945929505,
+            "rmse": 342.50700196872884,
+            "mae": 295.79093,
+            "training_time": 0.03319740295410156
+        },
+        {
+            "model": "K-Nearest Neighbors",
+            "r2": 0.7071327109479384,
+            "rmse": 344.5282663922302,
+            "mae": 184.65408800000003,
+            "training_time": 0.02832198143005371
+        },
+        {
+            "model": "Gradient Boosting",
+            "r2": 0.7038318146884082,
+            "rmse": 346.46440873286457,
+            "mae": 176.7946964235486,
+            "training_time": 1.2257699966430664
+        },
+        {
+            "model": "Lasso Regression",
+            "r2": 0.6606392039653366,
+            "rmse": 370.86876683251467,
+            "mae": 268.5926891800111,
+            "training_time": 0.007815361022949219
+        },
+        {
+            "model": "Neural Network",
+            "r2": 0.6099409219763343,
+            "rmse": 397.6075479757164,
+            "mae": 230.9452485904441,
+            "training_time": 2.7480361461639404
+        },
+        {
+            "model": "Decision Tree",
+            "r2": 0.3256896684748921,
+            "rmse": 522.7804427056757,
+            "mae": 251.00359666666662,
+            "training_time": 0.008812189102172852
+        },
+        {
+            "model": "Ridge Regression",
+            "r2": 0.12269121448350817,
+            "rmse": 596.3011741811159,
+            "mae": 432.62468634942945,
+            "training_time": 0.007810354232788086
+        },
+        {
+            "model": "Support Vector Machine",
+            "r2": -0.08894318294906411,
+            "rmse": 664.3424985417977,
+            "mae": 348.0004931409784,
+            "training_time": 0.021697521209716797
+        }
+    ],
+    "detailed_results": {
+        "Linear Regression": {
+            "predictions": [
+                537.71875,
+                -78.65625,
+                989.875,
+                241.875,
+                840.0625,
+                1007.8125,
+                736.125,
+                1757.625,
+                316.46875,
+                448.4375,
+                645.59375,
+                -86.3125,
+                -150.21875,
+                1863.625,
+                -262.5625
+            ],
+            "metrics": {
+                "R-squared": 0.7105589945929505,
+                "RMSE": 342.50700196872884,
+                "MAE": 295.79093
+            },
+            "training_time": 0.03319740295410156,
+            "model_params": {
+                "copy_X": true,
+                "fit_intercept": true,
+                "n_jobs": null,
+                "positive": false
+            }
+        },
+        "Ridge Regression": {
+            "predictions": [
+                648.238639300396,
+                563.5329633111273,
+                591.6550715336207,
+                608.0616674555706,
+                721.8344503748644,
+                593.7452085769708,
+                598.2447517846001,
+                673.0483007927356,
+                637.9193080566405,
+                543.3694328666598,
+                577.8886608991631,
+                559.16097578451,
+                602.7704014304052,
+                759.8066832757896,
+                631.4978486851675
+            ],
+            "metrics": {
+                "R-squared": 0.12269121448350817,
+                "RMSE": 596.3011741811159,
+                "MAE": 432.62468634942945
+            },
+            "training_time": 0.007810354232788086,
+            "model_params": {
+                "alpha": 1.0,
+                "copy_X": true,
+                "fit_intercept": true,
+                "max_iter": null,
+                "positive": false,
+                "random_state": 0,
+                "solver": "auto",
+                "tol": 0.0001
+            }
+        },
+        "Lasso Regression": {
+            "predictions": [
+                547.8059964300498,
+                43.028610481442456,
+                735.4291036430361,
+                310.6792683333098,
+                1125.9475125263655,
+                731.0710358363589,
+                359.8408279476692,
+                1287.3258761788352,
+                487.1375524904835,
+                171.9886072678653,
+                556.1836473679109,
+                24.885566037713318,
+                247.95002453247162,
+                1304.6892218061755,
+                433.3765870311622
+            ],
+            "metrics": {
+                "R-squared": 0.6606392039653366,
+                "RMSE": 370.86876683251467,
+                "MAE": 268.5926891800111
+            },
+            "training_time": 0.007815361022949219,
+            "model_params": {
+                "alpha": 1.0,
+                "copy_X": true,
+                "fit_intercept": true,
+                "max_iter": 1000,
+                "positive": false,
+                "precompute": false,
+                "random_state": 0,
+                "selection": "cyclic",
+                "tol": 0.0001,
+                "warm_start": false
+            }
+        },
+        "Decision Tree": {
+            "predictions": [
+                289.701,
+                110.1955,
+                905.8499999999999,
+                330.56975,
+                626.3464999999999,
+                905.8499999999999,
+                289.701,
+                1309.23,
+                239.65333333333334,
+                239.65333333333334,
+                387.92,
+                110.1955,
+                212.78125,
+                554.4449999999999,
+                212.78125
+            ],
+            "metrics": {
+                "R-squared": 0.3256896684748921,
+                "RMSE": 522.7804427056757,
+                "MAE": 251.00359666666662
+            },
+            "training_time": 0.008812189102172852,
+            "model_params": {
+                "ccp_alpha": 0.0,
+                "criterion": "squared_error",
+                "max_depth": 10,
+                "max_features": null,
+                "max_leaf_nodes": null,
+                "min_impurity_decrease": 0.0,
+                "min_samples_leaf": 1,
+                "min_samples_split": 5,
+                "min_weight_fraction_leaf": 0.0,
+                "random_state": 0,
+                "splitter": "best"
+            }
+        },
+        "Random Forest": {
+            "predictions": [
+                282.4895704063493,
+                126.563326017316,
+                563.5692142936505,
+                339.7605080380953,
+                661.714555690476,
+                568.6146364841267,
+                285.92564275476195,
+                1958.9576958903326,
+                235.62637427958168,
+                229.74778966053395,
+                384.36150207857133,
+                113.21231803318895,
+                226.47180418867248,
+                1375.4683960952382,
+                226.08147490656566
+            ],
+            "metrics": {
+                "R-squared": 0.82713010152233,
+                "RMSE": 264.69705765331685,
+                "MAE": 115.42282767105341
+            },
+            "training_time": 1.472724437713623,
+            "model_params": {
+                "bootstrap": true,
+                "ccp_alpha": 0.0,
+                "criterion": "squared_error",
+                "max_depth": 10,
+                "max_features": 1.0,
+                "max_leaf_nodes": null,
+                "max_samples": null,
+                "min_impurity_decrease": 0.0,
+                "min_samples_leaf": 1,
+                "min_samples_split": 5,
+                "min_weight_fraction_leaf": 0.0,
+                "n_estimators": 100,
+                "n_jobs": null,
+                "oob_score": false,
+                "random_state": 0,
+                "verbose": 0,
+                "warm_start": false
+            }
+        },
+        "Gradient Boosting": {
+            "predictions": [
+                294.2776058104925,
+                124.8654481809719,
+                947.3647952037405,
+                353.6113949891017,
+                648.403139336816,
+                947.5757151609721,
+                296.5451274480381,
+                1998.0991959819503,
+                238.14237107510988,
+                237.52843290593393,
+                361.6431266073613,
+                111.54592173847337,
+                206.25718619628705,
+                1257.1909352078205,
+                217.8458797747879
+            ],
+            "metrics": {
+                "R-squared": 0.7038318146884082,
+                "RMSE": 346.46440873286457,
+                "MAE": 176.7946964235486
+            },
+            "training_time": 1.2257699966430664,
+            "model_params": {
+                "alpha": 0.9,
+                "ccp_alpha": 0.0,
+                "criterion": "friedman_mse",
+                "init": null,
+                "learning_rate": 0.1,
+                "loss": "squared_error",
+                "max_depth": 6,
+                "max_features": null,
+                "max_leaf_nodes": null,
+                "min_impurity_decrease": 0.0,
+                "min_samples_leaf": 1,
+                "min_samples_split": 2,
+                "min_weight_fraction_leaf": 0.0,
+                "n_estimators": 100,
+                "n_iter_no_change": null,
+                "random_state": 0,
+                "subsample": 1.0,
+                "tol": 0.0001,
+                "validation_fraction": 0.1,
+                "verbose": 0,
+                "warm_start": false
+            }
+        },
+        "Support Vector Machine": {
+            "predictions": [
+                366.2591459033642,
+                362.0354286290694,
+                366.9626736981856,
+                367.205268175131,
+                371.59262715289174,
+                367.8809252011064,
+                366.8903727676118,
+                372.16938422602624,
+                365.8148442917014,
+                363.17628232677635,
+                365.4579742963179,
+                362.0850305890239,
+                366.17791462729963,
+                372.3103364476247,
+                365.24236717711204
+            ],
+            "metrics": {
+                "R-squared": -0.08894318294906411,
+                "RMSE": 664.3424985417977,
+                "MAE": 348.0004931409784
+            },
+            "training_time": 0.021697521209716797,
+            "model_params": {
+                "memory": null,
+                "steps": [
+                    [
+                        "scaler",
+                        
